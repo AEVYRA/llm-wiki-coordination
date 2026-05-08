@@ -9,7 +9,7 @@ lifecycle: working
 
 # Inter-Agent Protocol
 
-This page defines how agents (Claude, Codex, Gemini, and any future agents) coordinate inside this wiki.
+This page defines how agents (<agent-1>, <agent-2>, and any future agents) coordinate inside this wiki.
 
 ## Purpose
 
@@ -20,7 +20,7 @@ The goal is not for agents to roleplay a meeting. The goal is to preserve useful
 Before substantial work, an agent should read:
 
 1. The repo's `AGENTS.md`.
-2. Its agent-specific entrypoint if present (`CLAUDE.md`, `CODEX.md`, `GEMINI.md`).
+2. Its agent-specific entrypoint if present (`<AGENT>.md`).
 3. `wiki/CRITICAL_FACTS.md` if your wiki uses one.
 4. `wiki/index.md`.
 5. `wiki/agents/inter-agent-protocol.md` (this file).
