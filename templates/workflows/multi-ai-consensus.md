@@ -45,9 +45,9 @@ New agents start with `pending` on existing documents. Their `pending` does not 
 
 ```yaml
 consensus:
-  Codex: "accepted | 2026-04-29 | rev: v3"
-  Claude: "contributed (added §3) | 2026-04-29 | rev: v4"
-  Gemini: "pending | rev: v4"
+  <Agent1>: "accepted | YYYY-MM-DD | rev: v3"
+  <Agent2>: "contributed (added §3) | YYYY-MM-DD | rev: v4"
+  <Agent3>: "pending | rev: v4"
 ```
 
 ### Statuses
@@ -113,7 +113,7 @@ The agent reports honestly:
 `disputed` must reference what is disputed:
 
 ```yaml
-Gemini: "disputed | section: §5 | thread: dialogue/multi-ai-consensus.md | YYYY-MM-DD | rev: v2"
+<Agent>: "disputed | section: §5 | thread: dialogue/multi-ai-consensus.md | YYYY-MM-DD | rev: v2"
 ```
 
 The dispute detail lives in a `dialogue/` thread with status `pending-<author-of-document>`.
@@ -121,7 +121,7 @@ The dispute detail lives in a `dialogue/` thread with status `pending-<author-of
 User has the final word. After user decides:
 
 ```yaml
-Gemini: "accepted (user decision: dialogue/...) | YYYY-MM-DD | rev: v3"
+<Agent>: "accepted (user decision: dialogue/...) | YYYY-MM-DD | rev: v3"
 ```
 
 ## 7. Agent obligations
