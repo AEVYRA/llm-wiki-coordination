@@ -21,12 +21,9 @@ A drop-in multi-agent coordination layer for [Karpathy-style LLM wikis](https://
 
 - `README.md` — entry point, value proposition.
 - `LICENSE` — MIT.
-- `docs/overview.md` — conceptual overview of the layer.
-- `docs/installation.md` — concrete steps to add to an existing wiki.
-- `docs/protocol/` — one file per protocol.
-- `docs/concepts/` — memory tiers and typed relations explained.
-- `templates/` — files the user literally copies into their `wiki/`.
-- `examples/` — before/after illustrations, sample dialogue threads.
+- `concepts/` — ontological and theoretical foundations.
+- `protocols/` — one file per protocol specification.
+- `tools/` — automated audit and maintenance scripts.
 
 ## Style
 
